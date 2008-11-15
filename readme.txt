@@ -10,10 +10,11 @@ This plugin adds client-side validation to the Wordpress comment form, using the
 
 == Description ==
 
-What does the Comment Validation plugin do? It adds client-side form validation to your comment form, helping
-commenters to fill out the form. It doesn’t get in the way, so if you fill out fields as usual you’ll never
-notice it. It just shows hints and highlights field when something is missing on submit or something has the
-wrong format, like email or url (which is still optional).
+Ever got annoyed when submitting a comment on a wordpress blog and just getting a blank page with a error message like "please fill out required fields" and nothing else? This plugin aims to help by adding validation to the comment form. When a user submits the form and something is missing, an appropiate message is displayed and individual fields are highlighted. When the email or url is in an incorrect format, a message is displayed accordingly.
+
+**Why should you install it?** Because you care for comments and want to help users reduce mistakes that hold them off from commenting at all.
+
+**Whats the technology used?** <a href="http://jquery.com">jQuery</a> and the <a href="/jquery-plugins/jquery-plugin-validation/">jQuery Validation plugin</a> with a few customizations to make it fit into the standard Wordpress theme.
 
 == Installation ==
 
