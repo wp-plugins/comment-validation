@@ -14,7 +14,7 @@ Ever got annoyed when submitting a comment on a wordpress blog and just getting 
 
 **Why should you install it?** Because you care for comments and want to help users reduce mistakes that hold them off from commenting at all.
 
-**Whats the technology used?** <a href="http://jquery.com">jQuery</a> and the <a href="http://bassistance.de//jquery-plugins/jquery-plugin-validation/">jQuery Validation plugin</a> with a few customizations to make it fit into the standard Wordpress theme.
+**Whats the technology used?** <a href="http://jquery.com">jQuery</a> and the <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">jQuery Validation plugin</a> with a few customizations to make it fit into the standard Wordpress theme.
 
 == Installation ==
 
