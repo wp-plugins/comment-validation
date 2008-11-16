@@ -12,7 +12,8 @@ jQuery(function($) {
 			comment: "required"
 		},
 		errorContainer: errorContainer,
-		errorLabelContainer: errorLabelContainer
+		errorLabelContainer: errorLabelContainer,
+		ignore: ":hidden"
 	});
 	$.validator.messages.required = "";
 	$.validator.messages.email = "&raquo; " + $.validator.messages.email;
