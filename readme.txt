@@ -20,3 +20,9 @@ Ever got annoyed when submitting a comment on a wordpress blog and just getting 
 
 1. Upload the `comment-validation` folder to `/wp-content/plugins/`
 1. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Screenshots ==
+
+1. A form submit without filling out any fields
+1. A form submit with valid name and comment, but invalid format for email (, instead of . in domain) and url (one slash is missing).
+Clicking on the message gives focus to the related input field.
