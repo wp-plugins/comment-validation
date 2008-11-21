@@ -16,6 +16,8 @@ Ever got annoyed when submitting a comment on a wordpress blog and just getting 
 
 **Whats the technology used?** <a href="http://jquery.com">jQuery</a> and the <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">jQuery Validation plugin</a> with a few customizations to make it fit into the standard Wordpress theme.
 
+**Is it compatible with other plugins?** The plugin is tested with the <a href="http://wordpress.org/extend/plugins/draw-comments/">Draw Comments</a> plugin and works, though the performance is slightly degraded. Other plugins haven't yet been tested.
+
 == Installation ==
 
 1. Upload the `comment-validation` folder to `/wp-content/plugins/`
