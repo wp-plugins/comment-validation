@@ -3,7 +3,7 @@ Contributors: joern.zaefferer
 Donate link: http://bassistance.de/wordpress-plugins/
 Tags: comments, validation, client-side
 Requires at least: 2.0.0
-Tested up to: 2.6.3
+Tested up to: 2.7.1
 Stable tag: trunk
 
 This plugin adds client-side validation to the Wordpress comment form, using the jQuery validation plugin.
