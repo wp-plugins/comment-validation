@@ -4,7 +4,7 @@ Plugin Name: Comment Validation
 Plugin URI: http://bassistance.de/wordpress-plugin-comment-validation/
 Description: Client-side validation for comments
 Author: Jörn Zaefferer
-Version: 0.2
+Version: 0.3
 Author URI: http://bassistance.de
 */
 
