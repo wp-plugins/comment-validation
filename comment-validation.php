@@ -8,24 +8,15 @@ Version: 0.3
 Author URI: http://bassistance.de
 */
 
-function commentValidation() {
-
-echo '<link rel="stylesheet" href="';
-bloginfo('wpurl');
-echo '/wp-content/plugins/comment-validation/comment-validation.css"></script>';
-
-echo '<script type="text/javascript" src="';
-bloginfo('wpurl');
-echo '/wp-content/plugins/comment-validation/jquery-1.2.6.pack.js"></script>';
-echo '<script type="text/javascript" src="';
-bloginfo('wpurl');
-echo '/wp-content/plugins/comment-validation/jquery.validate.pack.js"></script>';
-echo '<script type="text/javascript" src="';
-bloginfo('wpurl');
-echo '/wp-content/plugins/comment-validation/comment-validation.js"></script>';
-
+function load_comment_validation_styles() {
+	wp_enqueue_style( 'commentvalidation', WP_PLUGIN_URL . '/comment-validation/comment-validation.css');
+}
+function load_comment_validation_scripts() {
+	wp_enqueue_script('jqueryvalidate', WP_PLUGIN_URL . '/comment-validation/jquery.validate.pack.js', array('jquery'));
+	wp_enqueue_script('commentvalidation', WP_PLUGIN_URL . '/comment-validation/comment-validation.js', array('jquery','jqueryvalidate'));
 }
 
-add_action('wp_head', 'commentValidation');
+add_action('wp_print_styles', 'load_comment_validation_styles');
+add_action("wp_enqueue_scripts","load_comment_validation_scripts");
 
 ?>
